@@ -1,0 +1,122 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+html body {
+  background: radial-gradient(#cccccc60 50%, #7a7979);
+}
+
+html body header {
+  background: url('./img/bg.jpg');
+  padding: 20px 0px 20px 0px;
+}
+
+html body header div.box-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+html body header nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+html body header nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+html body header nav a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+html body header nav a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+html body main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+html body main section.section {
+  margin: 40px 0 20px 0;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+html body main section.section div form div.row {
+  margin: 20px 0 20px 0;
+}
+
+html
+  body
+  main
+  section.section
+  div.form-contact.container
+  .row
+  .form-check
+  .form-check-input {
+  display: table;
+}
+
+html
+  body
+  main
+  section.section
+  div.form-contact.container
+  .row
+  .form-check
+  .form-check-label {
+  padding-top: 5px;
+}
+
+html body main section.section div.form-contact.container fieldset {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+html body main section.section fieldset legend {
+  padding: 10px 0;
+}
+
+html body main section fieldset div table {
+  margin: 10px 0px 10px 0px;
+}
+
+html body main section fieldset div table thead {
+  background: #1a1919;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table tr,
+table tr,
+table td {
+  text-align: center;
+  padding: 8px 10px;
+  border: 0.5px solid #1a1919;
+}
+
+html body footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: url('./img/bg.jpg');
+  padding: 25px 0;
+}
+
+html body footer p.text-copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}

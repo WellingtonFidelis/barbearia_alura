@@ -1,0 +1,173 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+html body {
+  /*background: #cccccc60;*/
+  background: radial-gradient(#cccccc60 50%, #7a7979);
+}
+
+html body header {
+  background: url('./img/bg.jpg');
+}
+
+html body header {
+  background: url('./img/bg.jpg');
+  padding: 20px 0px 20px 0px;
+}
+
+html body header div.box-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+html body header nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+html body header nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+html body header nav a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+html body header nav a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+body img#banner-image {
+  width: 100%;
+}
+
+html body main {
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+html body main section.section-main {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 7px 9px -7px black;
+}
+
+html body main section .align-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em 0;
+  clear: left;
+}
+
+/*
+.align-title::first-letter(1) {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.align-title::before {
+  content: "[ ";
+}
+
+.align-title::after {
+  content: " ]";
+}
+
+.section-main map {
+}
+
+*/
+
+.section-main p {
+  margin: 0 0 2em;
+  text-align: center;
+  text-justify: distribute;
+}
+
+html body main section .utensilios {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+body p {
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+body p em strong {
+  color: #ff0000;
+}
+
+body p#mission {
+  font-size: 20px;
+}
+
+.benefits {
+  padding: 1em 0;
+}
+
+.benefits-contents {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.benefits-list {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.benefits-list .items {
+  line-height: 1.5em;
+}
+
+.benefits-list .items:first-child {
+  font-weight: bold;
+}
+
+.benefits .items::before {
+  content: '🟆 ';
+}
+
+.benefits-image {
+  width: 60%;
+}
+
+div .video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+html body footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: url('./img/bg.jpg');
+  padding: 25px 0;
+}
+
+html body footer p.text-copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: auto;
+  }
+}

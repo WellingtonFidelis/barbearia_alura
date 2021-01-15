@@ -1,0 +1,105 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+html body {
+  background: radial-gradient(#cccccc60 50%, #7a7979);
+}
+
+html body header {
+  background: url('./img/bg.jpg');
+  padding: 20px 0px 20px 0px;
+}
+
+html body header div.box-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+html body header nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+html body header nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+html body header nav a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+html body header nav a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+html body main ul.products-list {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+html body main ul.products-list li {
+  background: #ffffff;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px 30px 15px;
+  box-sizing: border-box;
+
+  border: 3px solid #cccccc;
+  border-radius: 20px 5px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+html body main ul.products-list li:hover {
+  border-color: chocolate;
+}
+
+html body main ul.products-list li:active {
+  border-color: crimson;
+}
+
+html body main ul.products-list li:hover h2 {
+  font-size: 32px;
+}
+
+html body main ul.products-list li h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+html body main ul.products-list li p.product-description {
+  font-size: 18px;
+}
+
+html body main ul.products-list li p.product-price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+html body footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background: url('./img/bg.jpg');
+  padding: 25px 0;
+}
+
+html body footer p.text-copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}
