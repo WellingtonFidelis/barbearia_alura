@@ -5,9 +5,9 @@ html {
 html body {
   background: radial-gradient(#cccccc60 50%, #7a7979);
 }
-
+/*
 html body header {
-  background: url('./img/bg.jpg');
+  background: url('../..//img/bg.jpg');
   padding: 20px 0px 20px 0px;
 }
 
@@ -39,14 +39,14 @@ html body header nav a {
 html body header nav a:hover {
   color: chocolate;
   text-decoration: underline;
-}
+} */
 
-html body main {
+#main-contact {
   width: 940px;
   margin: 0 auto;
 }
 
-html body main section.section {
+#main-contact section.section {
   margin: 40px 0 20px 0;
   background: #ffffff;
   padding: 15px;
@@ -54,13 +54,11 @@ html body main section.section {
   box-shadow: 0 8px 6px -6px black;
 }
 
-html body main section.section div form div.row {
+#main-contact section.section div form div.row {
   margin: 20px 0 20px 0;
 }
 
-html
-  body
-  main
+#main-contact
   section.section
   div.form-contact.container
   .row
@@ -69,9 +67,7 @@ html
   display: table;
 }
 
-html
-  body
-  main
+#main-contact
   section.section
   div.form-contact.container
   .row
@@ -80,20 +76,20 @@ html
   padding-top: 5px;
 }
 
-html body main section.section div.form-contact.container fieldset {
+#main-contact section.section div.form-contact.container fieldset {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-html body main section.section fieldset legend {
+#main-contact section.section fieldset legend {
   padding: 10px 0;
 }
 
-html body main section fieldset div table {
+#main-contact section fieldset div table {
   margin: 10px 0px 10px 0px;
 }
 
-html body main section fieldset div table thead {
+#main-contact section fieldset div table thead {
   background: #1a1919;
   color: #ffffff;
   font-weight: bold;
@@ -106,12 +102,12 @@ table td {
   padding: 8px 10px;
   border: 0.5px solid #1a1919;
 }
-
+/* 
 html body footer {
   position: absolute;
   width: 100%;
   text-align: center;
-  background: url('./img/bg.jpg');
+  background: url('../../img/bg.jpg');
   padding: 25px 0;
 }
 
@@ -120,3 +116,4 @@ html body footer p.text-copyright {
   font-size: 14px;
   margin-top: 10px;
 }
+ */

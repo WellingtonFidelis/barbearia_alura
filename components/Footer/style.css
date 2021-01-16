@@ -1,0 +1,13 @@
+html body footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: url('../../img/bg.jpg');
+  padding: 25px 0;
+}
+
+html body footer p.text-copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}
