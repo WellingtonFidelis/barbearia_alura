@@ -5,9 +5,13 @@ var headerHtml = `
       <h1><img src="../img/logo-branco.png" alt="Barbearia Alura" srcset=""></h1>
       <nav>
         <ul>
+          <!--
           <li id="home-page"><a href="./index.html">Home</a></li>
           <li id="products-page"><a href="./products.html">Products</a></li>
-          <li id="contact-page"><a href="">Contact</a></li>
+          -->
+          <li id="home-page"><a class="link">Home</a></li>
+          <li id="products-page"><a class="link">Products</a></li>
+          <li id="contact-page"><a class="link">Contact</a></li>
         </ul>
       </nav>
     </div>

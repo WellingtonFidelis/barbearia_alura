@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -39,6 +39,10 @@ html body header nav a {
 html body header nav a:hover {
   color: chocolate;
   text-decoration: underline;
+} */
+
+.main-products-page {
+  /* margin-top: 300px; */
 }
 
 html body main ul.products-list {
@@ -88,7 +92,7 @@ html body main ul.products-list li p.product-price {
   font-weight: bold;
   margin: 10px 0 0;
 }
-
+/* 
 html body footer {
   position: absolute;
   width: 100%;
@@ -103,3 +107,4 @@ html body footer p.text-copyright {
   font-size: 14px;
   margin-top: 10px;
 }
+ */

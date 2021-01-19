@@ -1,7 +1,90 @@
 var main = document.querySelector('#main');
 
+var homeHtmlPage = `
+<section class="section-main">
+  <h2 class="align-title">
+    Sobre a Barbearia Alura
+  </h2>
+
+  <img class="utensilios" src="./img/utensilios.jpg" alt="Utensílios de um Barbeiro" srcset="">
+
+  <p class="text-simple">
+    Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz
+    para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a
+    Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.
+  </p>
+  <p class="text-simple" id="mission">
+    <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em>
+  </p>
+  <p class="text-simple">
+    Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
+    atendimento possui padrão de excelência e agilidade, garantindo qualidade e
+    satisfação dos nossos clientes.
+  </p>
+</section>
+<section class="section-main">
+  <h3 class="align-title">
+    Nosso estabelecimento
+  </h3>
+  <p>
+    Nosso estabelecimento está localizado no coração da cidade.
+  </p>
+  <map name="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.732161793279!2d-43.2729495219447!3d-22.87835415050916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c3f0a7c5cdd%3A0xf31c91cd0302bb07!2sShopping%20Nova%20Am%C3%A9rica!5e0!3m2!1spt-BR!2sbr!4v1610493769456!5m2!1spt-BR!2sbr"
+      width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </map>
+</section>
+<section class="section-main">
+  <div class="benefits">
+    <h3 class="align-title">Benefícios</h3>
+    <div class="benefits-contents">
+      <ul class="benefits-list">
+        <li class="items">Atendimento aos Clientes</li>
+        <li class="items">Espaço diferenciado</li>
+        <li class="items">Localização</li>
+        <li class="items">Profissionais qualificados</li>
+        <li class="items">Pontualidade</li>
+        <li class="items">Limpeza</li>
+      </ul><img class="benefits-image" src="./img/beneficios.jpg" alt="benefits" srcset="">
+    </div>
+  </div>
+  <div class="video">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tR7eu2QWbV4" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+</section>
+`;
+
+var productsHtmlPage = `
+<div class="main-products-page">
+  <ul class="products-list">
+  <li>
+    <h2>Cabelo</h2>
+    <img src="./img/cabelo.jpg" alt="Cabelo">
+    <p class="product-description">Na tesoura ou máquina, como o cliente preferir</p>
+    <p class="product-price">R$ 25,00</p>
+  </li>
+  <li>
+    <h2>Barba</h2>
+      <img src="./img/barba.jpg" alt="Barba">
+      <p class="product-description">Corte e desenho profissional de barba</p>
+      <p class="product-price">R$ 18,00</p>
+    </li>
+  <li>
+    <h2>Cabelo + Barba</h2>
+    <img src="./img/cabelo+barba.jpg" alt="Corte + Barba">
+    <p class="product-description">Pacote completo de cabelo e barba</p>
+    <p class="product-price">R$ 35,00</p>
+  </li>
+  </ul>
+ </div> 
+`;
+
 var contactHtmlPage = `
-<main id="main-contact">
+<div id="main-contact">
   <section class="section">
     <div class="form-contact container">
       <form action="">
@@ -121,16 +204,37 @@ var contactHtmlPage = `
       </div>
     </div>
   </section>
-</main>
+</div>
 `;
+
 
 document.addEventListener('DOMContentLoaded', function (event) {
   console.log('DOM loaded.');
+  event.preventDefault();
+  main.innerHTML = homeHtmlPage;
+  var buttonHomePage = document.querySelector('#home-page');
+  var buttonProductsPage = document.querySelector('#products-page');
   var buttonContactPage = document.querySelector('#contact-page');
+  var imageBanner = document.querySelector('#banner-image');
 
+  buttonHomePage.addEventListener('click', function (event) {
+    event.preventDefault();
+    event.href = '';
+    main.innerHTML = homeHtmlPage;
+  });
+  
+  buttonProductsPage.addEventListener('click', function (event) {
+    event.preventDefault();
+    event.href = '';
+    main.innerHTML = productsHtmlPage;
+    console.log('Products page loaded');
+  });
+  
   buttonContactPage.addEventListener('click', function (event) {
     event.preventDefault();
+    event.href = '';
     main.innerHTML = contactHtmlPage;
-    console.log('Hello');
+    console.log('Contact page loaded');
   });
 });
+

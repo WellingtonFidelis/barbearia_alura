@@ -35,4 +35,5 @@ html body header nav a {
 html body header nav a:hover {
   color: chocolate;
   text-decoration: underline;
+  cursor: pointer;
 }
