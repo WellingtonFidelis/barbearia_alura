@@ -2,7 +2,7 @@ var header = document.querySelector('#header');
 var headerHtml = `
   <header>
     <div id="div-header">
-      <h1><img src="../img/logo-branco.png" alt="Barbearia Alura" srcset=""></h1>
+      <h1><img src="./img/logo-branco.png" alt="Barbearia Alura" srcset=""></h1>
       <nav>
         <ul>
           <!--
